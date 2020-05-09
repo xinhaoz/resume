@@ -1,0 +1,115 @@
+{
+  "firstName": "Xin Hao",
+  "lastName": "Zhang",
+  "term": "4A",
+  "program": "Computer Science",
+  "institution": "University of Waterloo",
+  "graduationYear": 2021,
+  "email": "xinhao.zhang98@gmail.com",
+  "githubUsername": "xinhaoz",
+  "linkedin": "xinhao-zhang",
+  "workExperience": [
+    {
+      "organization": "Facebook",
+      "title": "Frontend Engineering Intern, Lightweight Ads Experiences",
+      "location": "Menlo Park, CA",
+      "startDate": "September 2019",
+      "endDate": "December 2019",
+      "technologies": ["React", "Relay", "GraphQL"],
+      "include": true,
+      "description": [
+        "Created media picker with unit and e2e tests to enable advertisers to select images and videos",
+        "Created an image cropper with unit and e2e tests to crop selected ad media",
+        "Added support for video ads by creating wrapper components around video uploading logic to allow old upload infrastructure to be used while codebase is transitioning"
+      ]
+    },
+    {
+      "organization": "MongoDB",
+      "title": "Software Engineering Intern, Query Team",
+      "location": "New York, NY",
+      "startDate": "May 2019",
+      "endDate": "August 2019",
+      "include": true,
+      "technologies": ["C++", "JavaScript"],
+      "description": [
+        "Improved features of the MongoDB query language by completing tickets such as adding support for index hints in update command and improving the oplog replay optimization",
+        "Fixed bugs in query language and created JavaScript integration tests to verify code changes",
+        "Implemented proof of concept to refactor mapReduce command to use more optimal aggregation framework"
+      ]
+    },
+    {
+      "organization": "Index Exchange",
+      "title": "Software Engineering Intern",
+      "location": "Kitchener, ON",
+      "startDate": "September 2018",
+      "endDate": "December 2018",
+      "technologies": ["Perl", "Angular 6", "Node", "Go"],
+      "include": true,
+      "description": [
+        "Implemented a standardized navigation wrapper in Angular 6 to be used in all future web services",
+        "Prototyped service displaying pipelines, build statuses & test coverage from Gitlab using Angular 6 and Go",
+        "Improved throughput of Perl daemons by identifying and refactoring inefficiencies in regex usage",
+        "Eliminated hard-coded lists used in Node API by migrating data to a SQL database and caching query"
+      ]
+    },
+    {
+      "organization": "Peekapak",
+      "title": "Software Engineering Intern",
+      "location": "Toronto, ON",
+      "startDate": "January 2018",
+      "endDate": "April 2018",
+      "technologies": ["React", "SASS", "Java"],
+      "include": true,
+      "description": [
+        "Built features of a platform providing social-emotional learning curriculum to educators",
+        "Created Java servlets to retrieve account data from DynamoDB and assets from AWS",
+        "Redesigned and built internal content editing platform from ground up to be more scalable and user friendly",
+        "Implemented pricing plan pages and real-time user engagement dashboards to convert users to premium plans"
+      ]
+    },
+    {
+      "organization": "Sunnybrook Research Institute",
+      "title": "Software Development Intern",
+      "location": "Toronto, ON",
+      "startDate": "July 2016",
+      "endDate": "August 2016",
+      "technologies": ["React", "SASS", "Java"],
+      "include": false,
+      "description": [
+        "Developed ultrasound data manipulation programs for essential tremor treatments using MATLAB",
+        "Enhanced data sampling and analysis of microbubble cavitation program",
+        "Created a GUI program to adjust chemical shift artifacts in thermal dose maps collected from clinical trials"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "organization": "UW Blueprint",
+      "title": "Social Venture Partners KW",
+      "link": "https://github.com/uwblueprint/cookie-monster",
+      "startDate": "January 2020",
+      "endDate": "present",
+      "technologies": ["React", "Node", "MongoDB", "Firebase"],
+      "include": true,
+      "description": [
+        "Student team partnering with SVP KW to build application review app to help allocate funding to NPOs",
+        "Implemented navigation, application view components, candidate rankings page and user management pages",
+        "Mentored teammates on frontend JavaScript and React concepts through code reviews and pair programming",
+        "Platform used in COVID-19 relief funding rounds and used to help allocate 800k+ to applicants"
+      ]
+    },
+    {
+      "organization": "UW Blueprint",
+      "title": "Plastics for Change",
+      "link": "https://github.com/uwblueprint/plasta",
+      "startDate": "May 2018",
+      "endDate": "April 2019",
+      "technologies": ["React", "Python", "PostgreSQL"],
+      "include": true,
+      "description": [
+        "Partnered with social enterprise PFC to create an MVP to track recycled Plastic through the supply chain",
+        "Saw project through entire project development life cycle, including initial scoping work with client"
+      ]
+    }
+  ]
+}
