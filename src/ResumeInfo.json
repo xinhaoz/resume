@@ -18,8 +18,8 @@
       "technologies": ["React", "Relay", "GraphQL"],
       "include": true,
       "description": [
-        "Created media picker with unit and e2e tests to enable advertisers to select images and videos",
-        "Created an image cropper with unit and e2e tests to crop selected ad media",
+        "Implemented media picker with unit and end to end tests to enable advertisers to select images and videos",
+        "Created an image cropper with unit and end to end tests to crop selected ad media",
         "Added support for video ads by creating wrapper components around video uploading logic to allow old upload infrastructure to be used while codebase is transitioning"
       ]
     },
