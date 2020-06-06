@@ -1,10 +1,12 @@
 {
   "firstName": "Xin Hao",
   "lastName": "Zhang",
-  "term": "4A",
-  "program": "Computer Science",
-  "institution": "University of Waterloo",
-  "graduationYear": 2021,
+  "education": {
+    "program": "Computer Science",
+    "institution": "University of Waterloo",
+    "startYear": 2016,
+    "graduationYear": 2021
+  },
   "email": "xinhao.zhang98@gmail.com",
   "githubUsername": "xinhaoz",
   "linkedin": "xinhao-zhang",
@@ -18,9 +20,8 @@
       "technologies": ["React", "Relay", "GraphQL"],
       "include": true,
       "description": [
-        "Implemented media picker with unit and end to end tests to enable advertisers to select images and videos",
-        "Created an image cropper with unit and end to end tests to crop selected ad media",
-        "Added support for video ads by creating wrapper components around video uploading logic to allow old upload infrastructure to be used while codebase is transitioning"
+        "Created components for the boosted post ads creation and editing flows, including a multi-media selector and a cropping tool which enabled the selection, upload, and cropping of media from various sources",
+        "Added support for video ads in boosted posts by converting video upload logic for new infrastructure"
       ]
     },
     {
@@ -47,7 +48,7 @@
       "include": true,
       "description": [
         "Implemented a standardized navigation wrapper in Angular 6 to be used in all future web services",
-        "Prototyped service displaying pipelines, build statuses & test coverage from Gitlab using Angular 6 and Go",
+        "Prototyped service to display pipelines, build statuses and test coverage from Gitlab",
         "Improved throughput of Perl daemons by identifying and refactoring inefficiencies in regex usage",
         "Eliminated hard-coded lists used in Node API by migrating data to a SQL database and caching query"
       ]
@@ -107,7 +108,7 @@
       "technologies": ["React", "Python", "PostgreSQL"],
       "include": true,
       "description": [
-        "Partnered with social enterprise PFC to create an MVP to track recycled Plastic through the supply chain",
+        "Partnered with social enterprise PFC to create an MVP to track recycled plastic through the supply chain",
         "Saw project through entire project development life cycle, including initial scoping work with client"
       ]
     }

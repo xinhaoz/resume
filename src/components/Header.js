@@ -4,14 +4,13 @@ import { deemphasis, emphasis } from "../colors";
 
 const style = {
   name: {
-    fontSize: "4rem",
+    fontSize: "3.2rem",
     margin: 0,
     textTransform: "capitalize",
   },
   lastName: {
     fontWeight: 400,
     color: emphasis,
-    // textTransform: "uppercase",
   },
   contact: {
     marginLeft: "auto",
@@ -20,11 +19,12 @@ const style = {
     display: "flex",
     letterSpacing: 0.8,
     marginTop: "0.5rem",
-    marginBottom: "0.8rem",
+    marginBottom: "0.7rem",
     alignItems: "center",
   },
   subheader: {
     color: deemphasis,
+    fontSize: "0.9rem",
   },
 };
 

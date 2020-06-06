@@ -1,5 +1,6 @@
 import React from "react";
 import LinkIcon from "../../assets/baseline_link_black_24dp.png";
+import { deemphasis } from "../colors";
 
 const style = {
   headline: {
@@ -18,7 +19,7 @@ const style = {
     marginLeft: "auto",
   },
   subheading: {
-    color: "#858585",
+    color: deemphasis,
     fontSize: "0.9rem",
     fontStyle: "italic",
     display: "flex",

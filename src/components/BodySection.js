@@ -1,5 +1,4 @@
 import React from "react";
-import Experience from "./Experience";
 import { highlight } from "../colors";
 
 const style = {
@@ -9,19 +8,15 @@ const style = {
     margin: 0,
     marginBottom: "0.5rem",
     textTransform: "uppercase",
-    borderBottom: `6px solid ${highlight}`,
+    borderBottom: `4.5px solid ${highlight}`,
   },
 };
 
-function BodySection({ title, experiences }) {
+function BodySection({ children, title }) {
   return (
     <div>
       <h2 style={style.title}>{title}</h2>
-      <div>
-        {experiences.map(
-          (entry, i) => entry.include && <Experience key={i} {...entry} />
-        )}
-      </div>
+      {children}
     </div>
   );
 }

@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "./components/Header";
-import BodySection from "./components/BodySection";
+import ExperienceSection from "./components/ExperienceSection";
+import Education from "./components/Education";
 import ResumeInfo from "./ResumeInfo";
 
 const width = 800;
@@ -17,11 +18,7 @@ const style = {
 };
 
 function Resume() {
-  const subheading = [
-    ResumeInfo.institution,
-    ResumeInfo.program,
-    ResumeInfo.graduationYear,
-  ].join(" ");
+  const subheading = "Software Developer • UWaterloo Computer Science 2021";
   return (
     <div style={style.resume}>
       <Header
@@ -32,8 +29,12 @@ function Resume() {
         github={ResumeInfo.githubUsername}
         linkedin={ResumeInfo.linkedin}
       />
-      <BodySection title="Experience" experiences={ResumeInfo.workExperience} />
-      <BodySection title="Projects" experiences={ResumeInfo.projects} />
+      <ExperienceSection
+        title="Experience"
+        experiences={ResumeInfo.workExperience}
+      />
+      <ExperienceSection title="Projects" experiences={ResumeInfo.projects} />
+      <Education {...ResumeInfo.education} />
     </div>
   );
 }
