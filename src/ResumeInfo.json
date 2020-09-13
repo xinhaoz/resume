@@ -12,8 +12,20 @@
   "linkedin": "xinhao-zhang",
   "workExperience": [
     {
+      "organization": "Coursera",
+      "title": "Software Engineer Intern, Degree Experiences",
+      "location": "Remote",
+      "startDate": "September 2020",
+      "endDate": "present",
+      "technologies": ["Scala"],
+      "include": true,
+      "description": [
+        "Working on the degree experiences backend"
+      ]
+    },
+    {
       "organization": "Facebook",
-      "title": "Frontend Engineering Intern, Lightweight Ads Experiences",
+      "title": "Frontend Engineer Intern, Lightweight Ads Experiences",
       "location": "Menlo Park, CA",
       "startDate": "September 2019",
       "endDate": "December 2019",
@@ -26,7 +38,7 @@
     },
     {
       "organization": "MongoDB",
-      "title": "Software Engineering Intern, Query Team",
+      "title": "Software Engineer Intern, Query Team",
       "location": "New York, NY",
       "startDate": "May 2019",
       "endDate": "August 2019",
@@ -40,7 +52,7 @@
     },
     {
       "organization": "Index Exchange",
-      "title": "Software Engineering Intern",
+      "title": "Software Engineer Intern",
       "location": "Kitchener, ON",
       "startDate": "September 2018",
       "endDate": "December 2018",
@@ -55,7 +67,7 @@
     },
     {
       "organization": "Peekapak",
-      "title": "Software Engineering Intern",
+      "title": "Software Engineer Intern",
       "location": "Toronto, ON",
       "startDate": "January 2018",
       "endDate": "April 2018",
@@ -70,11 +82,11 @@
     },
     {
       "organization": "Sunnybrook Research Institute",
-      "title": "Software Development Intern",
+      "title": "Developer Intern",
       "location": "Toronto, ON",
       "startDate": "July 2016",
       "endDate": "August 2016",
-      "technologies": ["React", "SASS", "Java"],
+      "technologies": ["Matlab"],
       "include": false,
       "description": [
         "Developed ultrasound data manipulation programs for essential tremor treatments using MATLAB",
@@ -106,7 +118,7 @@
       "startDate": "May 2018",
       "endDate": "April 2019",
       "technologies": ["React", "Python", "PostgreSQL"],
-      "include": true,
+      "include": false,
       "description": [
         "Partnered with social enterprise PFC to create an MVP to track recycled plastic through the supply chain",
         "Saw project through entire project development life cycle, including initial scoping work with client"
