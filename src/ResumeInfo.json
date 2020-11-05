@@ -17,7 +17,7 @@
       "location": "Remote",
       "startDate": "September 2020",
       "endDate": "present",
-      "technologies": ["Scala"],
+      "technologies": ["Scala", "Aurora"],
       "include": true,
       "description": [
         "Working on the degree experiences backend"
@@ -45,9 +45,9 @@
       "include": true,
       "technologies": ["C++", "JavaScript"],
       "description": [
-        "Improved features of the MongoDB query language by completing tickets such as adding support for index hints in update command and improving the oplog replay optimization",
-        "Fixed bugs in query language and created JavaScript integration tests to verify code changes",
-        "Implemented proof of concept to refactor mapReduce command to use more optimal aggregation framework"
+        "Improved features of the MongoDB query language by adding support for index hints in update command and updating the oplog replay optimization",
+        "Fixed various bugs in query language and verified changes with unit and integration tests",
+        "Worked with team to refactor mapReduce command to use the more optimal aggregation framework"
       ]
     },
     {
@@ -62,7 +62,7 @@
         "Implemented a standardized navigation wrapper in Angular 6 to be used in all future web services",
         "Prototyped service to display pipelines, build statuses and test coverage from Gitlab",
         "Improved throughput of Perl daemons by identifying and refactoring inefficiencies in regex usage",
-        "Eliminated hard-coded lists used in Node API by migrating data to a SQL database and caching query"
+        "Eliminated hard-coded static lists used in Node API by migrating data to a SQL database and caching query"
       ]
     },
     {
@@ -87,7 +87,7 @@
       "startDate": "July 2016",
       "endDate": "August 2016",
       "technologies": ["Matlab"],
-      "include": false,
+      "include": true,
       "description": [
         "Developed ultrasound data manipulation programs for essential tremor treatments using MATLAB",
         "Enhanced data sampling and analysis of microbubble cavitation program",
@@ -98,17 +98,16 @@
   "projects": [
     {
       "organization": "UW Blueprint",
-      "title": "Social Venture Partners KW",
+      "title": "Project Developer",
       "link": "https://github.com/uwblueprint/cookie-monster",
-      "startDate": "January 2020",
+      "startDate": "May 2018",
       "endDate": "present",
-      "technologies": ["React", "Node", "MongoDB", "Firebase"],
+      "technologies": ["React", "Node", "MongoDB", "Firebase", "PostgreSQL", "Flask"],
       "include": true,
       "description": [
-        "Student team partnering with SVP KW to build application review app to help allocate funding to NPOs",
-        "Implemented navigation, application view components, candidate rankings page and user management pages",
-        "Mentored teammates on frontend JavaScript and React concepts through code reviews and pair programming",
-        "Platform used in COVID-19 relief funding rounds and used to help allocate 800k+ to applicants"
+        "Student team partnering with non-profits and social enterprises to build technical solutions",
+        "Previously worked with a social enterprise to create a minimum viable product to track recycled plastic in India through the supply chain",
+        "Working with non-profits such as Social Venture Partners to create web platform to help allocate funding to other organizations"
       ]
     },
     {

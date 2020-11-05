@@ -10,8 +10,8 @@ const style = {
   resume: {
     margin: "0 auto",
     padding: "20px 40px",
-    width,
-    height: (11 / 8.5) * width,
+    width: `${width}px`,
+    height: `${(11 / 8.5) * width}px`,
     fontFamily: "Roboto",
     boxSizing: "border-box",
   },
